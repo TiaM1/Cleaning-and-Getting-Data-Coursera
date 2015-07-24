@@ -1,24 +1,24 @@
 #codebook  
 Data were downloaded from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
-  ###Data names in run_analysis.R script:  
-    x_train is the X_train.txt file  
-    y_train is the Y_train.txt file  
-    subject_train is the subject_train.txt file  
-    x_test is the X_test.txt file  
-    y_test is the Y_test.txt file 
-    subject_test is the subject_test.txt file    
-    activity_labels is the activity_labels.txt file  
-    features is the features.txt file  
+##Data names in run_analysis.R script:  
+    -x_train is the X_train.txt file  
+    -y_train is the Y_train.txt file  
+    -subject_train is the subject_train.txt file  
+    -x_test is the X_test.txt file  
+    -y_test is the Y_test.txt file 
+    -subject_test is the subject_test.txt file    
+    -activity_labels is the activity_labels.txt file  
+    -features is the features.txt file  
      
-    x_table is a table that contains both the x_train and x_test tables  
-    y_table is a table that contains both the y_train and y_test tables  
-    subject_table is a table that contains both the subject_train and subject_test tables  
+    -x_table is a table that contains both the x_train and x_test tables  
+    -y_table is a table that contains both the y_train and y_test tables  
+    -subject_table is a table that contains both the subject_train and subject_test tables  
      
-    features_meanSD is a table with only column names for columns with means and standard deviations  
-    x_meansSD is a table containing data from the x_table for only columns with means and standard deviations    
+    -features_meanSD is a table with only column names for columns with means and standard deviations  
+    -x_meansSD is a table containing data from the x_table for only columns with means and standard deviations    
       
-    merged_tables is the table combining the following tables: x_meanSD, y_table, subject_table  
-    tidy_table is a new data set twith the average of each variale fore each subject  
+    -merged_tables is the table combining the following tables: x_meanSD, y_table, subject_table  
+    -tidy_table is a new data set twith the average of each variale fore each subject  
 
 ##Variables
 From the dataset website (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)  
@@ -30,12 +30,12 @@ For each record in the dataset it is provided:
   - An identifier of the subject who carried out the experiment.
   
   ###Activities
-    1 WALKING
-    2 WALKING_UPSTAIRS
-    3 WALKING_DOWNSTAIRS
-    4 SITTING
-    5 STANDING
-    6 LAYING
+    -1 WALKING  
+    -2 WALKING_UPSTAIRS  
+    -3 WALKING_DOWNSTAIRS  
+    -4 SITTING  
+    -5 STANDING  
+    -6 LAYING  
 
 
   ###Variable Names
