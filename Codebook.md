@@ -52,7 +52,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-##Variable Names
+###Variable Names
 (from the features_info.txt file provided with this data set)   
 The set of variables that were estimated from these signals are: 
   mean(): Mean value
