@@ -1,4 +1,5 @@
 # How the script works
+*
 The script does the following things:
 1. Sets the working directory
 2. Loads the plyr package
