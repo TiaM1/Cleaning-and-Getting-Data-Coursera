@@ -39,7 +39,8 @@ For each record in the dataset it is provided:
 
 
   ###Variable Names
-  (from the features_info.txt file provided with this data set)  
+  (from the features_info.txt file provided with this data set)
+    
         tBodyAcc-XYZ
         tGravityAcc-XYZ
         tBodyAccJerk-XYZ
@@ -59,6 +60,7 @@ For each record in the dataset it is provided:
         fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
+  
         mean(): Mean value
         std(): Standard deviation
         mad(): Median absolute deviation 
