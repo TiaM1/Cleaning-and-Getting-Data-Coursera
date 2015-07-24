@@ -27,7 +27,7 @@ For each record in the dataset it is provided:
   - Its activity label. 
   - An identifier of the subject who carried out the experiment.
   
-  ##Activities
+  ###Activities
    1 WALKING
   2 WALKING_UPSTAIRS
   3 WALKING_DOWNSTAIRS
@@ -52,7 +52,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-###Variable Names
+  ###Variable Names
 (from the features_info.txt file provided with this data set)   
 The set of variables that were estimated from these signals are: 
   mean(): Mean value
